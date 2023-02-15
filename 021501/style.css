@@ -1,0 +1,51 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body{
+  width: 100%;
+  height: 100%;
+}
+
+/* container1：上部30%のcontainer */
+.container1 {
+  height: 30%;
+  display: flex;
+}
+.container1 .left-box {
+  width: 30%;
+  background-color: #573f2e;
+}
+.container1 .right-box {
+  width: 70%;
+  background-color: #3E2D21;
+}
+
+/* container2：上部70%のcontainer  */
+.container2 {
+  height: 70%;
+  display: flex;
+}
+.container2 .left-box {
+  width: 30%;
+  background-color: #FAEDED;
+}
+.container2 .right-box {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+}
+.container2 .right-box .top-box {
+  height: 70%;
+  background-color: #6A4021;
+}
+.container2 .right-box .bottom-box {
+  height: 30%;
+  background-color: #3E2D21;
+}/*# sourceMappingURL=style.css.map */
